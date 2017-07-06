@@ -2,5 +2,7 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Mecanicas</name>
-    <events />
+    <events>
+        <include>Personagem</include>
+    </events>
 </c2eventsheet>

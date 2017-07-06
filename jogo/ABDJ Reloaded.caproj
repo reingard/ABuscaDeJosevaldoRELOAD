@@ -18,7 +18,10 @@
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -80,6 +83,17 @@
         </object-type>
         <object-type name="Sprite" sid="381271138890182">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="dir" sid="134076676566789" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="730770401408833">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="940716017844571">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="3" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="628117033083003" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0" />
@@ -95,6 +109,15 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0" />
                     <frame duration="1" hotspotX="0.515152" hotspotY="0" />
+                </animation>
+                <animation framecount="1" loop="0" name="StillLeft" pingpong="0" repeatcount="1" repeatto="0" sid="257408324141588" speed="5">
+                    <frame duration="1" hotspotX="3.47222" hotspotY="2.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="StillDown" pingpong="0" repeatcount="1" repeatto="0" sid="942746909196170" speed="5">
+                    <frame duration="1" hotspotX="3.67647" hotspotY="2.90698" />
+                </animation>
+                <animation framecount="1" loop="0" name="StillUp" pingpong="0" repeatcount="1" repeatto="0" sid="228526546522838" speed="5">
+                    <frame duration="1" hotspotX="3.90625" hotspotY="2.71739" />
                 </animation>
             </animation-folder>
         </object-type>
