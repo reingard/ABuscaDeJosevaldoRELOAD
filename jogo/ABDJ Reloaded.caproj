@@ -13,6 +13,7 @@
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
@@ -76,6 +77,26 @@
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\20171144010053\Desktop\tileb.png" />
             <tiles />
+        </object-type>
+        <object-type name="Sprite" sid="381271138890182">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="628117033083003" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0" />
+                </animation>
+                <animation framecount="3" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0" />
+                </animation>
+                <animation framecount="3" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
