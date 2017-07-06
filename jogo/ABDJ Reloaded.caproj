@@ -84,6 +84,7 @@
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
+        <event-sheet>Personagem.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />
