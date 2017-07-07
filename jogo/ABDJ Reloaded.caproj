@@ -95,29 +95,57 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="3" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="628117033083003" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.515152" hotspotY="0" />
+                <animation framecount="4" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="628117033083003" speed="5">
+                    <frame duration="1" hotspotX="0.56" hotspotY="1">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.502016" />
+                            <point x="0.72" y="1" />
+                            <point x="0.235" y="1" />
+                            <point x="0" y="0.590726" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.56" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.82" y="0" />
+                            <point x="1" y="0.250977" />
+                            <point x="0.7625" y="1" />
+                            <point x="0.305" y="1" />
+                            <point x="0.003125" y="0.680664" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.56" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.56" hotspotY="1">
+                        <collision-poly>
+                            <point x="0" y="0.899194" />
+                            <point x="0.995" y="0.899194" />
+                            <point x="0.9975" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
-                <animation framecount="3" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.516129" hotspotY="0" />
+                <animation framecount="4" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
+                    <frame duration="1" hotspotX="0.518519" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.518519" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="1" />
                 </animation>
-                <animation framecount="3" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.515152" hotspotY="0" />
+                <animation framecount="4" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="1" />
                 </animation>
                 <animation framecount="1" loop="0" name="StillLeft" pingpong="0" repeatcount="1" repeatto="0" sid="257408324141588" speed="5">
-                    <frame duration="1" hotspotX="3.47222" hotspotY="2.5" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="1" />
                 </animation>
                 <animation framecount="1" loop="0" name="StillDown" pingpong="0" repeatcount="1" repeatto="0" sid="942746909196170" speed="5">
-                    <frame duration="1" hotspotX="3.67647" hotspotY="2.90698" />
+                    <frame duration="1" hotspotX="0.518519" hotspotY="1" />
                 </animation>
                 <animation framecount="1" loop="0" name="StillUp" pingpong="0" repeatcount="1" repeatto="0" sid="228526546522838" speed="5">
-                    <frame duration="1" hotspotX="3.90625" hotspotY="2.71739" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="1" />
                 </animation>
             </animation-folder>
         </object-type>
