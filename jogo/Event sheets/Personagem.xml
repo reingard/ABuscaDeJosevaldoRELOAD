@@ -228,5 +228,59 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="662042644372458">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="489199843980367" type="Sprite">
+                    <param id="0" name="Instance variable">dir</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">-1</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="117550871121166" type="Sprite">
+                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="479818615912922" type="Sprite">
+                    <param id="0" name="Animation">&quot;StillLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="608177639119383">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="178504112929912" type="Sprite">
+                    <param id="0" name="Instance variable">dir</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">-1</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="804949529192650" type="Sprite">
+                    <param id="0" name="Animation">&quot;Run1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="170846945128611" type="Sprite">
+                    <param id="0" name="Animation">&quot;StillDown&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="600020727355275">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="783547186994903" type="Sprite">
+                    <param id="0" name="Instance variable">dir</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">-1</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="667166201051119" type="Sprite">
+                    <param id="0" name="Animation">&quot;Run2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="807722617131748" type="Sprite">
+                    <param id="0" name="Animation">&quot;StillUp&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
