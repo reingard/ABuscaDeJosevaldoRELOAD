@@ -4,29 +4,5 @@
     <name>Mecanicas</name>
     <events>
         <include>Personagem</include>
-        <event-block sid="636177941313601">
-            <conditions>
-                <condition id="1" name="Is overlapping another object" sid="425966965429218" type="out2">
-                    <param id="0" name="Object">Sprite</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="1" name="Set blend mode" sid="113020622256711" type="Sprite">
-                    <param id="0" name="Blend mode">4</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="530846109665076">
-            <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="879502436110907" type="out2">
-                    <param id="0" name="Object">Sprite</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="1" name="Set blend mode" sid="480950072504657" type="Sprite">
-                    <param id="0" name="Blend mode">0</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
