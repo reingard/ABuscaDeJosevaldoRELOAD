@@ -182,10 +182,16 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Rua" sid="703567916595971">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010053\Desktop\tilea2.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Tutorial.xml</layout>
+        <layout>Academia.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
