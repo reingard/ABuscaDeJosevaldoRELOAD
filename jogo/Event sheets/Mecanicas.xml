@@ -4,27 +4,18 @@
     <name>Mecanicas</name>
     <events>
         <include>Personagem</include>
-        <event-block sid="636177941313601">
+        <event-block sid="268217472362030">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="425966965429218" type="out2">
+                <condition id="0" name="On collision with another object" sid="270306243264517" type="Teleport">
                     <param id="0" name="Object">Sprite</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="1" name="Set blend mode" sid="113020622256711" type="Sprite">
-                    <param id="0" name="Blend mode">4</param>
+                <action id="-16" name="Wait" sid="575203355114268" type="System">
+                    <param id="0" name="Seconds">0.5</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="530846109665076">
-            <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="879502436110907" type="out2">
-                    <param id="0" name="Object">Sprite</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="1" name="Set blend mode" sid="480950072504657" type="Sprite">
-                    <param id="0" name="Blend mode">0</param>
+                <action id="-2" name="Go to layout" sid="357048815179496" type="System">
+                    <param id="0" name="Layout">Tutorial</param>
                 </action>
             </actions>
         </event-block>

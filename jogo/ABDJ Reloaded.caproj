@@ -97,6 +97,12 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
+                <animation framecount="4" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                </animation>
                 <animation framecount="4" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="628117033083003" speed="5">
                     <frame duration="1" hotspotX="0.52" hotspotY="0">
                         <collision-poly>
@@ -134,12 +140,6 @@
                     <frame duration="1" hotspotX="0.518519" hotspotY="0" />
                     <frame duration="1" hotspotX="0.52" hotspotY="0" />
                 </animation>
-                <animation framecount="4" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                </animation>
                 <animation framecount="1" loop="0" name="StillLeft" pingpong="0" repeatcount="1" repeatto="0" sid="257408324141588" speed="5">
                     <frame duration="1" hotspotX="0.52" hotspotY="0" />
                 </animation>
@@ -165,39 +165,69 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="487658870218869" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="out" sid="407413505326129">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="951440947649058" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="out2" sid="914055708010502">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="970359266117881" speed="5">
-                    <frame duration="1" hotspotX="0.252" hotspotY="0.126">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
-                            <point x="1" y="1" />
-                            <point x="0.996" y="0.498" />
-                            <point x="0.842" y="0.194" />
-                            <point x="0.2355" y="0.1965" />
-                            <point x="0.004" y="0.496" />
-                            <point x="0" y="1" />
+                            <point x="0.096" y="0.168" />
+                            <point x="0.368" y="0.004" />
+                            <point x="0.683999" y="0.0120001" />
+                            <point x="0.946" y="0.265" />
+                            <point x="1" y="0.474" />
+                            <point x="0.964" y="0.716" />
+                            <point x="0.742" y="0.966" />
+                            <point x="0.384" y="1" />
+                            <point x="0.12" y="0.832" />
+                            <point x="0" y="0.532" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Rua" sid="703567916595971">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010053\Desktop\tilea2.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Madeira" sid="889714348699953">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010053\Documents\GitHub\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\WoodWalls.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Wood_Wall" sid="682139383253013">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="464778966132319">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="587496772570971" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Teleport" sid="325415728896086">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="430644014641231" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap2" sid="763370838103836">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
+        <object-type name="CHAO" sid="442691700193765">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Tutorial.xml</layout>
+        <layout>Academia.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
