@@ -70,7 +70,7 @@
         </object-type>
         <object-type name="Objetos" sid="558274982936371">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\20171144010053\Desktop\tile_custom01.png" />
+            <texture original-source="C:\Users\20171144010053\Desktop\tile_custom02.png" />
             <tiles />
         </object-type>
         <object-type name="P_" sid="306222021980572">
@@ -153,7 +153,7 @@
         </object-type>
         <object-type name="Tilemap" sid="575326247733908">
             <plugin id="Tilemap" />
-            <texture />
+            <texture original-source="C:\Users\20171144010053\Desktop\tilea2.png" />
             <tiles />
         </object-type>
         <object-type name="block" sid="653516987815361">
