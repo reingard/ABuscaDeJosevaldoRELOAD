@@ -97,6 +97,12 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
+                <animation framecount="4" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                </animation>
                 <animation framecount="4" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
                     <frame duration="1" hotspotX="0.52" hotspotY="0" />
                     <frame duration="1" hotspotX="0.52" hotspotY="0" />
@@ -134,12 +140,6 @@
                     </frame>
                     <frame duration="1" hotspotX="0.52" hotspotY="0" />
                 </animation>
-                <animation framecount="4" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                </animation>
                 <animation framecount="1" loop="0" name="StillLeft" pingpong="0" repeatcount="1" repeatto="0" sid="257408324141588" speed="5">
                     <frame duration="1" hotspotX="0.52" hotspotY="0" />
                 </animation>
@@ -150,11 +150,6 @@
                     <frame duration="1" hotspotX="0.52" hotspotY="0" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Tilemap" sid="575326247733908">
-            <plugin id="Tilemap" />
-            <texture original-source="C:\Users\20171144010053\Desktop\tilea2.png" />
-            <tiles />
         </object-type>
         <object-type name="block" sid="653516987815361">
             <plugin id="Sprite" />
@@ -205,7 +200,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Teleport" sid="325415728896086">
+        <object-type name="ACADEMIATUTORIAL" sid="325415728896086">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="430644014641231" speed="5">
@@ -220,8 +215,34 @@
         </object-type>
         <object-type name="CHAO" sid="442691700193765">
             <plugin id="Tilemap" />
-            <texture />
+            <texture original-source="C:\Users\20171144010053\Desktop\dfgjdfdhj.png" />
             <tiles />
+        </object-type>
+        <object-type name="asfafsds" sid="523731148421475">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010053\Desktop\dfgjdfdhj.png" />
+            <tiles />
+        </object-type>
+        <object-type name="TUTORIALACADEMIA" sid="137217432436626">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634344428645654" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Wood_Wall2" sid="667271650151557">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="657916249550015">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="419754146763030" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

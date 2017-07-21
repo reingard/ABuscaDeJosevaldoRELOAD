@@ -33,6 +33,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/block/" />
         <folder expanded="1" path="animation-folder/Wood_Wall/" />
-        <folder expanded="1" path="animation-folder/Teleport/" />
+        <folder expanded="1" path="animation-folder/ACADEMIATUTORIAL/" />
+        <folder expanded="1" path="animation-folder/TUTORIALACADEMIA/" />
+        <folder expanded="1" path="animation-folder/Wood_Wall2/" />
     </folders-expanded>
 </c2uistate>

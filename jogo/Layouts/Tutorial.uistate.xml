@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>640</position-x>
-        <position-y>322.597</position-y>
-        <position-z>81.2842</position-z>
-        <lookat-x>640</lookat-x>
-        <lookat-y>322.597</lookat-y>
+        <position-x>725.412</position-x>
+        <position-y>175.471</position-y>
+        <position-z>58.5877</position-z>
+        <lookat-x>725.412</lookat-x>
+        <lookat-y>175.471</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -25,9 +25,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <active-layer name="Casas" />
     <layers>
-        <layer locked="0" name="TileSet" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Casas" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="TileSet" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Preto" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Personagens" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Casas" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Arvores" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Personagens" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>
