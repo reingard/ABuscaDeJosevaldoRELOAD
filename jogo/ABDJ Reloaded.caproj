@@ -244,15 +244,22 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TilemapFull" sid="479296866517096">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Tutorial.xml</layout>
         <layout>Academia.xml</layout>
+        <layout>Fase1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
         <event-sheet>Personagem.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />
