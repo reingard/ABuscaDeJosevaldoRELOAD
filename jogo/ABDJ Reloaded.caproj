@@ -249,17 +249,25 @@
             <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
             <tiles />
         </object-type>
+        <object-type name="Tilemap" sid="259062842021018">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
+        <object-type name="ObjetosFull" sid="702840203718494">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Tutorial.xml</layout>
         <layout>Academia.xml</layout>
-        <layout>Fase1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
         <event-sheet>Personagem.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />
