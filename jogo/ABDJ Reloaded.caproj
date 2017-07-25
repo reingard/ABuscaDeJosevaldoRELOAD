@@ -19,6 +19,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -127,7 +128,7 @@
             <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
             <tiles />
         </object-type>
-        <object-type name="ObjetosFull" sid="702840203718494">
+        <object-type name="ObjetosFullACADEMIAPART1" sid="702840203718494">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
             <tiles />
@@ -136,6 +137,97 @@
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\20171144010053\Documents\Github\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
             <tiles />
+        </object-type>
+        <object-type name="ObjetosFullFASE1PARTE1" sid="279647477377584">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Fase1Tuto" sid="891864457691650">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="841351999269107" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TutoFase1" sid="390148257446969">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="631879482313487" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Solido" sid="501644576999199">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="640432700310272">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386269232476795" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SolidoFase1" sid="648246485671146">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="679937550084822">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780859258022789" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ObjetosFullACADEMIAPART2" sid="532125562385904">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite2" sid="673477403714178">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="725639335252155">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="859186117276579" speed="5">
+                    <frame duration="1" hotspotX="-7.625" hotspotY="0.473684" original-source="C:\Users\20171144010053\Documents\Github\ABuscaDeJosevaldoRELOADED\Docs\Testes\lpc_entry\png\combat_dummy\BODY_animation.png">
+                        <collision-poly>
+                            <point x="0" y="0.00861804" />
+                            <point x="1" y="0.579871" />
+                            <point x="1" y="0.481379" />
+                            <point x="1" y="1" />
+                            <point x="0" y="0.658664" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ObjetosFullFASE1PARTE2" sid="162541872555118">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
+            <tiles />
+        </object-type>
+        <object-type name="TreeSolid" sid="860643392985718">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="288710722210845">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551749092317259" speed="5">
+                    <frame duration="1" hotspotX="0.426877" hotspotY="0.45935" original-source="C:\Users\20171144010053\Documents\Github\ABuscaDeJosevaldoRELOADED\Docs\Testes\SolidTree.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

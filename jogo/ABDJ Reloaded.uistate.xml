@@ -12,6 +12,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Academia</layout>
         <layout active="1" order="1">Tutorial</layout>
+        <event-sheet order="2">Mecanicas</event-sheet>
+        <event-sheet order="3">Personagem</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,5 +31,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Fase1Tuto/" />
+        <folder expanded="1" path="animation-folder/TutoFase1/" />
+        <folder expanded="1" path="animation-folder/Solido/" />
+        <folder expanded="1" path="animation-folder/SolidoFase1/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/TreeSolid/" />
     </folders-expanded>
 </c2uistate>

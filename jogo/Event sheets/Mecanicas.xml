@@ -4,25 +4,27 @@
     <name>Mecanicas</name>
     <events>
         <include>Personagem</include>
-        <event-block sid="268217472362030">
-            <conditions />
+        <event-block sid="255958492934100">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="869666043087192" type="Fase1Tuto">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+            </conditions>
             <actions>
-                <action id="-16" name="Wait" sid="575203355114268" type="System">
-                    <param id="0" name="Seconds">0.5</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="357048815179496" type="System">
-                    <param id="0" name="Layout">Tutorial</param>
+                <action id="-43" name="Go to next/previous layout" sid="864185247472049" type="System">
+                    <param id="0" name="Which">0</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="770539484539358">
-            <conditions />
+        <event-block sid="479257190385282">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="459134506777924" type="TutoFase1">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+            </conditions>
             <actions>
-                <action id="-16" name="Wait" sid="900841472053008" type="System">
-                    <param id="0" name="Seconds">0.5</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="803305804517588" type="System">
-                    <param id="0" name="Layout">Academia</param>
+                <action id="-43" name="Go to next/previous layout" sid="701419016421766" type="System">
+                    <param id="0" name="Which">1</param>
                 </action>
             </actions>
         </event-block>
