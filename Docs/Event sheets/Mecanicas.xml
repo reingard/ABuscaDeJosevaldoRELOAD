@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Mecanicas</name>
+    <events>
+        <include>Personagem</include>
+        <event-group description="" sid="185978029654497" title="Loading&amp;Teleports">
+            <sub-events>
+                <event-block sid="370410181455991">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="904672321622505" type="Fase1Tuto">
+                            <param id="0" name="Object">Sprite</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="613003414133056" type="System">
+                            <param id="0" name="Layout">Academia</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="141660790721619" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="957187631230313" type="System">
+                            <param id="0" name="Seconds">7</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="538422820235940" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="835002707794968">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="418040812730769" type="TutoFase1">
+                            <param id="0" name="Object">Sprite</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="791358640608159" type="System">
+                            <param id="0" name="Layout">Tutorial</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="140469061207622" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="944202614929598" type="System">
+                            <param id="0" name="Seconds">7</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="615162414319484" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="424553394523972">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="130763720827134" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="395373785711981" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <variable constant="0" name="DialogueFinished2" sid="639231090518560" static="0" type="number">0</variable>
+        <variable constant="0" name="Dialogue2" sid="345385120702367" static="0" type="number">0</variable>
+        <event-block sid="512779350330566">
+            <conditions />
+            <actions />
+            <sub-events>
+                <event-block sid="454641234154177">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="247342578014714" type="Sprite">
+                            <param id="0" name="Object">Falas</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="736092195703595" type="DialogueBox">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="147590050408068" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="708698486394364" type="System">
+                            <param id="0" name="Variable">Dialogue2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="957202891669745">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="288062344707466" type="Sprite">
+                            <param id="0" name="Object">Falas</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="257375381436947" type="DialogueBox">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="872109419420593">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="622854358091125" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="409974296558695" type="DialogueBox">
+                    <param id="0" name="Pin to">Sprite</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
