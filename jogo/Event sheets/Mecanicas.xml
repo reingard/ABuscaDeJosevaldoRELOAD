@@ -5,11 +5,7 @@
     <events>
         <include>Personagem</include>
         <event-block sid="268217472362030">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="270306243264517" type="ACADEMIATUTORIAL">
-                    <param id="0" name="Object">Sprite</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-16" name="Wait" sid="575203355114268" type="System">
                     <param id="0" name="Seconds">0.5</param>
@@ -20,11 +16,7 @@
             </actions>
         </event-block>
         <event-block sid="770539484539358">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="106777178711062" type="TUTORIALACADEMIA">
-                    <param id="0" name="Object">Sprite</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-16" name="Wait" sid="900841472053008" type="System">
                     <param id="0" name="Seconds">0.5</param>
