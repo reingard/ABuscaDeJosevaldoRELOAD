@@ -12,7 +12,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Academia</layout>
         <layout order="1">Tutorial</layout>
-        <event-sheet active="1" order="2">Mecanicas</event-sheet>
+        <layout active="1" order="7">Fase 1</layout>
+        <event-sheet order="2">Mecanicas</event-sheet>
         <event-sheet order="3">Personagem</event-sheet>
     </open-tabs>
     <properties>
