@@ -14,10 +14,13 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -41,8 +44,10 @@
         <prop name="Fullscreen scaling quality">Low</prop>
         <prop name="Hide address bar">No</prop>
         <prop name="Loader style">Progress bar &amp; logo</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Preview browser">NW.js</prop>
         <prop name="Sampling">Point</prop>
+        <prop name="Use high-DPI display">Yes</prop>
         <prop name="Use iOS retina display">All devices</prop>
     </configuration-settings>
     <object-folder>
@@ -67,6 +72,9 @@
                 <behavior-type name="ScrollTo" sid="940716017844571">
                     <behavior id="scrollto" />
                 </behavior-type>
+                <behavior-type name="BoundToLayout" sid="964755544801431">
+                    <behavior id="bound" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="4" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
@@ -86,26 +94,22 @@
                         <collision-poly>
                             <point x="0" y="0" />
                             <point x="1" y="0" />
-                            <point x="1" y="0.502016" />
-                            <point x="0.72" y="1" />
-                            <point x="0.235" y="1" />
-                            <point x="0" y="0.590726" />
+                            <point x="1" y="0.983871" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.52" hotspotY="0">
                         <collision-poly>
-                            <point x="0.82" y="0" />
-                            <point x="1" y="0.250977" />
-                            <point x="0.7625" y="1" />
-                            <point x="0.305" y="1" />
-                            <point x="0.003125" y="0.680664" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                             <point x="0" y="0" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.52" hotspotY="0">
                         <collision-poly>
-                            <point x="0" y="0.899194" />
-                            <point x="0.995" y="0.899194" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
                             <point x="0.9975" y="1" />
                             <point x="0" y="1" />
                         </collision-poly>
@@ -226,6 +230,47 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551749092317259" speed="5">
                     <frame duration="1" hotspotX="0.426877" hotspotY="0.45935" original-source="C:\Users\20171144010053\Documents\Github\ABuscaDeJosevaldoRELOADED\Docs\Testes\SolidTree.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fgfjf" sid="641536647297888">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="372277585158300" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20171144010053\Desktop\loading_desktop_by_brianmccumber-d41z4h6.gif" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Loading" sid="200579744183807">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="178021693146854" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500956" original-source="C:\Users\20171144010053\Desktop\loading_desktop_by_brianmccumber-d41z4h6.gif" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Falas" sid="391108053149767">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="682976467542530" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="302571725449328">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="DialogueBox" sid="913021431051538">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="947224992140270">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="335216064946047" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
