@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Mecanicas</name>
+    <events>
+        <variable constant="0" name="DialogueFinished2" sid="639231090518560" static="0" type="number">0</variable>
+        <variable constant="0" name="Dialogue2" sid="345385120702367" static="0" type="number">0</variable>
+        <include>Personagem</include>
+        <event-group description="" sid="185978029654497" title="Loading&amp;Teleports" />
+        <event-group description="" sid="287320299597271" title="PLACAAAAS">
+            <sub-events>
+                <event-group description="" sid="110965020412507" title="Placa do Tutorial">
+                    <sub-events>
+                        <event-block sid="339101485888982">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="459821128942365" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="609981913682733" type="PlacaTutorial">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="136151487884468">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="301454064824480" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-6" name="Every X seconds" sid="527283773548522" type="System">
+                                    <param id="0" name="Interval (seconds)">0.2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="937839645739255" type="TextoPlacaFase1TutoNE">
+                                    <param id="0" name="Text">left(TextoPlacaFase1tutoE.text, len(TextoPlacaFase1tutoNE.text)+ 1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="142612930883576">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="566320248894994" type="Keyboard">
+                                    <param id="0" name="Key">69 (E)</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="160998080356125" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="643054308288327">
+                                    <conditions>
+                                        <condition id="9" name="Is overlapping at offset" sid="125392293643144" type="Sprite">
+                                            <param id="0" name="Object">FalasTutorial</param>
+                                            <param id="1" name="Offset X">0</param>
+                                            <param id="2" name="Offset Y">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="854670700619881" type="PlacaTutorial">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="699701006740496" type="System">
+                                            <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="173659457511943" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="787795837897646" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="211790460680100" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="821295964251752" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="628021522688908">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="808348167995091" type="Keyboard">
+                                    <param id="0" name="Key">32 (Space)</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="817397326816068" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="437916394298502">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="562638030201243" type="System">
+                                            <param id="0" name="First value">TextoPlacaFase1tutoE.Text</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Second value">TextoPlacaFase1tutoNE.Text</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="177534883247554" type="TextoPlacaFase1TutoNE">
+                                            <param id="0" name="Text">TextoPlacaFase1tutoE.Text</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="595404762011488" type="System">
+                                            <param id="0" name="Seconds">1.0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="869767315507440" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="532164709393013">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="110405605356972" type="System">
+                                            <param id="0" name="First value">TextoPlacaFase1tutoE.Text</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">TextoPlacaFase1tutoNE.Text</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="824633306312065" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="179734361649852" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="318100489648721" type="PlacaTutorial">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="638892689198298" type="TextoPlacaFase1TutoNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="867722146090276" type="System">
+                                            <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="191611869070190" title="Placa do Dojo">
+                    <sub-events>
+                        <event-block sid="372922053833228">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="448029885458927" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="672038297738412" type="PlacaFase1CidadeDojo">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="105901879676232">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="303596193571245" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-6" name="Every X seconds" sid="497393001229639" type="System">
+                                    <param id="0" name="Interval (seconds)">0.2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="201160817871204" type="TextoPlacaFase1DojoNE">
+                                    <param id="0" name="Text">left(TextoPlacaFase1DojoE.text, len(TextoPlacaFase1DojoNE.text)+ 1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="509668319403306">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="596866369037604" type="Keyboard">
+                                    <param id="0" name="Key">69 (E)</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="580514077469411" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="748106087926184">
+                                    <conditions>
+                                        <condition id="9" name="Is overlapping at offset" sid="573575221869804" type="Sprite">
+                                            <param id="0" name="Object">FalasDojoOut</param>
+                                            <param id="1" name="Offset X">0</param>
+                                            <param id="2" name="Offset Y">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="609153172725663" type="PlacaFase1CidadeDojo">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="631471702205974" type="System">
+                                            <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="498420567701376" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="946254530222452" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="755780397539783" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="265945031512181" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="796624325465250">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="910307837476973" type="Keyboard">
+                                    <param id="0" name="Key">32 (Space)</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="507505439928427" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="983592711145796">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="671834952886816" type="System">
+                                            <param id="0" name="First value">TextoPlacaFase1DojoE.Text</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Second value">TextoPlacaFase1DojoNE.Text</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="524392416056686" type="TextoPlacaFase1DojoNE">
+                                            <param id="0" name="Text">TextoPlacaFase1DojoE.Text</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="812458166731822" type="System">
+                                            <param id="0" name="Seconds">1.0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="899787390301943" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="625999052827478">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="726304796149126" type="System">
+                                            <param id="0" name="First value">TextoPlacaFase1DojoE.Text</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">TextoPlacaFase1DojoNE.Text</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="339588776442536" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="886002521269119" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="447155497406405" type="PlacaFase1CidadeDojo">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="894951137359098" type="TextoPlacaFase1DojoNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="589197621812591" type="System">
+                                            <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="274685309869316" title="Placa da floresta sem volta">
+                    <sub-events>
+                        <event-block sid="512779350330566">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="622854358091125" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="240791614770838" type="PlacaFase1Floresta">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="147999386762645">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="432234153209122" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-6" name="Every X seconds" sid="107580797106573" type="System">
+                                    <param id="0" name="Interval (seconds)">0.2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="306011830455060" type="TextoPlacaFase1FlorestaNE">
+                                    <param id="0" name="Text">left(TextoPlacaFase1FlorestaE.text, len(TextoPlacaFase1FlorestaNE.text)+ 1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="850537160673570">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="984601570104030" type="Keyboard">
+                                    <param id="0" name="Key">69 (E)</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="267394273206017" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="356834212550877">
+                                    <conditions>
+                                        <condition id="9" name="Is overlapping at offset" sid="525598276822561" type="Sprite">
+                                            <param id="0" name="Object">Falas</param>
+                                            <param id="1" name="Offset X">0</param>
+                                            <param id="2" name="Offset Y">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="126249084336806" type="PlacaFase1Floresta">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="874796414793607" type="System">
+                                            <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="656996425148647" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="708698486394364" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="147590050408068" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="232694682244133" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="237194988470653">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="569405201842402" type="Keyboard">
+                                    <param id="0" name="Key">32 (Space)</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="781537560449571" type="System">
+                                    <param id="0" name="Variable">Dialogue2</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="788760398091632">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="188111930615544" type="System">
+                                            <param id="0" name="First value">TextoPlacaFase1FlorestaE.Text</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Second value">TextoPlacaFase1FlorestaNE.Text</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="151231698830453" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">TextoPlacaFase1FlorestaE.Text</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="794346778255557" type="System">
+                                            <param id="0" name="Seconds">1.0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="989340035783304" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="172834131643064">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="488819898130245" type="System">
+                                            <param id="0" name="First value">TextoPlacaFase1FlorestaE.Text</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">TextoPlacaFase1FlorestaNE.Text</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="718847734880855" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="195420660945153" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="148108427933698" type="PlacaFase1Floresta">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="820639214735127" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="837786493370056" type="System">
+                                            <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-block sid="217987350666482">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="847041735536665" type="Sprite">
+                    <param id="0" name="Object">AcdRua</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="745014298347269" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="392070657260427" type="System">
+                    <param id="0" name="Layout">Rua</param>
+                </action>
+                <action id="-16" name="Wait" sid="141450529683528" type="System">
+                    <param id="0" name="Seconds">6</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="713457165795470" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="925043195418261">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="478428122981937" type="Sprite">
+                    <param id="0" name="Object">RuaAcd</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="790164191490746" type="System">
+                    <param id="0" name="Layout">Academia</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="760658922482267" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="794698088350763" type="System">
+                    <param id="0" name="Seconds">6</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="238060149021895" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="553535203086372">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="395801745492411" type="Sprite">
+                    <param id="0" name="Object">FSFRua</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="818248662023503" type="System">
+                    <param id="0" name="Layout">Rua</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="283670966929367" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="160277856444223" type="System">
+                    <param id="0" name="Seconds">6</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="898632646784142" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="535596920551977">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="510349542362194" type="Sprite">
+                    <param id="0" name="Object">RuaFSF</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="225536748295270" type="System">
+                    <param id="0" name="Layout">Tutorial</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="515616851282296" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="981914087862010" type="System">
+                    <param id="0" name="Seconds">6</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="690563182971187" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="851452369258498">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="237869724116052" type="Sprite">
+                    <param id="0" name="Object">RuaPredio</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="250626795605184" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="711604484539303" type="System">
+                    <param id="0" name="Seconds">6</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="975210894601495" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
