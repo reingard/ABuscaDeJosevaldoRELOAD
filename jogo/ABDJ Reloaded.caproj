@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
@@ -45,7 +46,7 @@
         <prop name="Hide address bar">No</prop>
         <prop name="Loader style">Progress bar &amp; logo</prop>
         <prop name="Orientations">Any</prop>
-        <prop name="Preview browser">NW.js</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Sampling">Point</prop>
         <prop name="Use high-DPI display">Yes</prop>
         <prop name="Use iOS retina display">All devices</prop>
@@ -77,27 +78,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="4" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                </animation>
-                <animation framecount="4" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                </animation>
                 <animation framecount="4" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="628117033083003" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0.983871" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
                     <frame duration="1" hotspotX="0.52" hotspotY="0">
                         <collision-poly>
                             <point x="1" y="0" />
@@ -110,10 +91,30 @@
                         <collision-poly>
                             <point x="0" y="0" />
                             <point x="1" y="0" />
+                            <point x="1" y="0.983871" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
                             <point x="0.9975" y="1" />
                             <point x="0" y="1" />
                         </collision-poly>
                     </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                </animation>
+                <animation framecount="4" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
                     <frame duration="1" hotspotX="0.52" hotspotY="0" />
                 </animation>
                 <animation framecount="1" loop="0" name="StillLeft" pingpong="0" repeatcount="1" repeatto="0" sid="257408324141588" speed="5">
@@ -147,15 +148,7 @@
             <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
             <tiles />
         </object-type>
-        <object-type name="Fase1Tuto" sid="891864457691650">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="841351999269107" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="TutoFase1" sid="390148257446969">
+        <object-type name="AcdRua" sid="390148257446969">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="631879482313487" speed="5">
@@ -233,14 +226,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="fgfjf" sid="641536647297888">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="372277585158300" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20171144010053\Desktop\loading_desktop_by_brianmccumber-d41z4h6.gif" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Loading" sid="200579744183807">
             <plugin id="Sprite" />
             <animation-folder>
@@ -261,7 +246,7 @@
             <plugin id="Spritefont2" />
             <texture />
         </object-type>
-        <object-type name="DialogueBox" sid="913021431051538">
+        <object-type name="PlacaFase1Floresta" sid="913021431051538">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Pin" sid="947224992140270">
@@ -274,11 +259,140 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TextoPlacaFase1FlorestaE" sid="222285168842930">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextoPlacaFase1FlorestaNE" sid="951305585561981">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PlacaFase1CidadeDojo" sid="873385050228346">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="959971667784316">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272439468911591" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextoPlacaFase1DojoNE" sid="872323800834344">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextoPlacaFase1DojoE" sid="846146910159913">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="FalasDojoOut" sid="403937370594432">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="908582943840764" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TilemapFlorestasemfim" sid="722981877708664">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010053\Documents\Github\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
+            <tiles />
+        </object-type>
+        <object-type name="ObjetosFullTUTORIAL" sid="526602858338766">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
+            <tiles />
+        </object-type>
+        <object-type name="SolidoTutorial" sid="257630939962177">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="114357294329031">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972021505713315" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FalasTutorial" sid="863928248959600">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700917192003272" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TreeSolidTuto" sid="192464952636143">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="905099573454763">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="350058237253493" speed="5">
+                    <frame duration="1" hotspotX="0.426877" hotspotY="0.45935" original-source="C:\Users\20171144010053\Documents\Github\ABuscaDeJosevaldoRELOADED\Docs\Testes\SolidTree.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextoPlacaFase1TutoE" sid="470606018623265">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextoPlacaFase1TutoNE" sid="195806607836912">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PlacaTutorial" sid="564874776437089">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="791906288701406">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="785118074907214" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RuaAcd" sid="522840130666806">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="134647199335378" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RuaFSF" sid="990640665002412">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="361146715824364" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FSFRua" sid="123098089647768">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408601582746086" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RuaPredio" sid="341574701709485">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="583279137684000" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Tutorial.xml</layout>
+        <layout>Rua.xml</layout>
         <layout>Academia.xml</layout>
+        <layout>Tutorial.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>

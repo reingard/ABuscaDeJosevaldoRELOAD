@@ -11,9 +11,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Academia</layout>
-        <layout order="1">Tutorial</layout>
-        <event-sheet active="1" order="2">Mecanicas</event-sheet>
-        <event-sheet order="3">Personagem</event-sheet>
+        <layout order="3">Tutorial</layout>
+        <layout active="1" order="4">Rua</layout>
+        <event-sheet order="1">Mecanicas</event-sheet>
+        <event-sheet order="2">Personagem</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,15 +32,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
-        <folder expanded="1" path="animation-folder/Fase1Tuto/" />
-        <folder expanded="1" path="animation-folder/TutoFase1/" />
+        <folder expanded="1" path="animation-folder/AcdRua/" />
         <folder expanded="1" path="animation-folder/Solido/" />
         <folder expanded="1" path="animation-folder/SolidoFase1/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/TreeSolid/" />
-        <folder expanded="1" path="animation-folder/fgfjf/" />
         <folder expanded="1" path="animation-folder/Loading/" />
         <folder expanded="1" path="animation-folder/Falas/" />
-        <folder expanded="1" path="animation-folder/DialogueBox/" />
+        <folder expanded="1" path="animation-folder/PlacaFase1Floresta/" />
+        <folder expanded="1" path="animation-folder/PlacaFase1CidadeDojo/" />
+        <folder expanded="1" path="animation-folder/FalasDojoOut/" />
+        <folder expanded="1" path="animation-folder/SolidoTutorial/" />
+        <folder expanded="1" path="animation-folder/FalasTutorial/" />
+        <folder expanded="1" path="animation-folder/TreeSolidTuto/" />
+        <folder expanded="1" path="animation-folder/PlacaTutorial/" />
+        <folder expanded="1" path="animation-folder/RuaAcd/" />
+        <folder expanded="1" path="animation-folder/RuaFSF/" />
+        <folder expanded="1" path="animation-folder/FSFRua/" />
+        <folder expanded="1" path="animation-folder/RuaPredio/" />
     </folders-expanded>
 </c2uistate>
