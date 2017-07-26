@@ -279,17 +279,24 @@
             <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
             <tiles />
         </object-type>
+        <object-type name="TilemapFase2" sid="873156389738296">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Tutorial.xml</layout>
         <layout>Academia.xml</layout>
         <layout>Fase 1.xml</layout>
+        <layout>Fase 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
         <event-sheet>Personagem.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="3" />
