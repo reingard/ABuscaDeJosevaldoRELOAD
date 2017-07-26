@@ -296,6 +296,18 @@
                     <param id="2" name="X">Sprite.X</param>
                     <param id="3" name="Y">Sprite.Y</param>
                 </action>
+                <action id="-22" name="Set angle toward position" sid="278930957107632" type="Sprite3">
+                    <param id="0" name="X">Mouse.X</param>
+                    <param id="1" name="Y">Mouse.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="659536415698220">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="781963488991984" type="Sprite3" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="946267467355777" type="Sprite3" />
             </actions>
         </event-block>
     </events>

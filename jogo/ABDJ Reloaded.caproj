@@ -19,6 +19,7 @@
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
@@ -79,7 +80,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="4" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="628117033083003" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0">
+                    <frame duration="1" hotspotX="0.44" hotspotY="0.78125">
                         <collision-poly>
                             <point x="1" y="0" />
                             <point x="1" y="1" />
@@ -87,7 +88,7 @@
                             <point x="0" y="0" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.52" hotspotY="0">
+                    <frame duration="1" hotspotX="0.36" hotspotY="0.774194">
                         <collision-poly>
                             <point x="0" y="0" />
                             <point x="1" y="0" />
@@ -95,8 +96,8 @@
                             <point x="0" y="1" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0">
+                    <frame duration="1" hotspotX="0.44" hotspotY="0.78125" />
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.806452">
                         <collision-poly>
                             <point x="0" y="0" />
                             <point x="1" y="0" />
@@ -106,25 +107,25 @@
                     </frame>
                 </animation>
                 <animation framecount="4" loop="1" name="Run2" pingpong="0" repeatcount="1" repeatto="0" sid="536735539728994" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.84" hotspotY="0.6875" />
+                    <frame duration="1" hotspotX="0.8" hotspotY="0.806452" />
+                    <frame duration="1" hotspotX="0.84" hotspotY="0.6875" />
+                    <frame duration="1" hotspotX="0.76" hotspotY="0.677419" />
                 </animation>
                 <animation framecount="4" loop="1" name="Run1" pingpong="0" repeatcount="1" repeatto="0" sid="499151451606705" speed="5">
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.296296" hotspotY="0.78125" />
+                    <frame duration="1" hotspotX="0.24" hotspotY="0.83871" />
+                    <frame duration="1" hotspotX="0.259259" hotspotY="0.78125" />
+                    <frame duration="1" hotspotX="0.32" hotspotY="0.806452" />
                 </animation>
                 <animation framecount="1" loop="0" name="StillLeft" pingpong="0" repeatcount="1" repeatto="0" sid="257408324141588" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.44" hotspotY="0.75" />
                 </animation>
                 <animation framecount="1" loop="0" name="StillDown" pingpong="0" repeatcount="1" repeatto="0" sid="942746909196170" speed="5">
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.259259" hotspotY="0.78125" />
                 </animation>
                 <animation framecount="1" loop="0" name="StillUp" pingpong="0" repeatcount="1" repeatto="0" sid="228526546522838" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.8" hotspotY="0.6875" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -394,6 +395,11 @@
         </object-type>
         <object-type name="Sprite3" sid="954889463189004">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="269869104452618">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275862695255117" speed="5">
                     <frame duration="1" hotspotX="0.571429" hotspotY="0.5" original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tools\kunai.png">
@@ -409,13 +415,18 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TilesetStage1" sid="364025883311228">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal - Cópia.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Rua.xml</layout>
         <layout>Academia.xml</layout>
         <layout>Tutorial.xml</layout>
-        <layout>Layout 1.xml</layout>
+        <layout>Fase 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
