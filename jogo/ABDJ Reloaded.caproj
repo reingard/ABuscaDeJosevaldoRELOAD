@@ -138,7 +138,7 @@
             <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
             <tiles />
         </object-type>
-        <object-type name="TilemapFase1" sid="315877461097867">
+        <object-type name="TilemapRua" sid="315877461097867">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\20171144010053\Documents\Github\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
             <tiles />
@@ -387,12 +387,35 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TilemapFase1" sid="701433623561764">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite3" sid="954889463189004">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275862695255117" speed="5">
+                    <frame duration="1" hotspotX="0.571429" hotspotY="0.5" original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tools\kunai.png">
+                        <collision-poly>
+                            <point x="0.285714" y="0.166667" />
+                            <point x="0.428571" y="0.0833333" />
+                            <point x="0.714286" y="0.166667" />
+                            <point x="0.714286" y="0.833333" />
+                            <point x="0.428571" y="0.916667" />
+                            <point x="0.285714" y="0.833333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Rua.xml</layout>
         <layout>Academia.xml</layout>
         <layout>Tutorial.xml</layout>
+        <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>

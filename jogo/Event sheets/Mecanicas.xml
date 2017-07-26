@@ -6,7 +6,122 @@
         <variable constant="0" name="DialogueFinished2" sid="639231090518560" static="0" type="number">0</variable>
         <variable constant="0" name="Dialogue2" sid="345385120702367" static="0" type="number">0</variable>
         <include>Personagem</include>
-        <event-group description="" sid="185978029654497" title="Loading&amp;Teleports" />
+        <event-group description="" sid="185978029654497" title="Loading&amp;Teleports">
+            <sub-events>
+                <event-block sid="217987350666482">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="847041735536665" type="Sprite">
+                            <param id="0" name="Object">AcdRua</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="745014298347269" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="392070657260427" type="System">
+                            <param id="0" name="Layout">Rua</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="141450529683528" type="System">
+                            <param id="0" name="Seconds">6</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="713457165795470" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="925043195418261">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="478428122981937" type="Sprite">
+                            <param id="0" name="Object">RuaAcd</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="790164191490746" type="System">
+                            <param id="0" name="Layout">Academia</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="760658922482267" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="794698088350763" type="System">
+                            <param id="0" name="Seconds">6</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="238060149021895" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="553535203086372">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="395801745492411" type="Sprite">
+                            <param id="0" name="Object">FSFRua</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="818248662023503" type="System">
+                            <param id="0" name="Layout">Rua</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="283670966929367" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="160277856444223" type="System">
+                            <param id="0" name="Seconds">6</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="898632646784142" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="535596920551977">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="510349542362194" type="Sprite">
+                            <param id="0" name="Object">RuaFSF</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="225536748295270" type="System">
+                            <param id="0" name="Layout">Tutorial</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="515616851282296" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="981914087862010" type="System">
+                            <param id="0" name="Seconds">6</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="690563182971187" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="851452369258498">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="237869724116052" type="Sprite">
+                            <param id="0" name="Object">RuaPredio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="250626795605184" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="711604484539303" type="System">
+                            <param id="0" name="Seconds">6</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="975210894601495" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" sid="287320299597271" title="PLACAAAAS">
             <sub-events>
                 <event-group description="" sid="110965020412507" title="Placa do Tutorial">
@@ -29,7 +144,7 @@
                                     <param id="2" name="Value">3</param>
                                 </condition>
                                 <condition id="-6" name="Every X seconds" sid="527283773548522" type="System">
-                                    <param id="0" name="Interval (seconds)">0.2</param>
+                                    <param id="0" name="Interval (seconds)">0.05</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -174,7 +289,7 @@
                                     <param id="2" name="Value">2</param>
                                 </condition>
                                 <condition id="-6" name="Every X seconds" sid="497393001229639" type="System">
-                                    <param id="0" name="Interval (seconds)">0.2</param>
+                                    <param id="0" name="Interval (seconds)">0.05</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -319,7 +434,7 @@
                                     <param id="2" name="Value">1</param>
                                 </condition>
                                 <condition id="-6" name="Every X seconds" sid="107580797106573" type="System">
-                                    <param id="0" name="Interval (seconds)">0.2</param>
+                                    <param id="0" name="Interval (seconds)">0.05</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -446,117 +561,5 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-block sid="217987350666482">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="847041735536665" type="Sprite">
-                    <param id="0" name="Object">AcdRua</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="745014298347269" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="392070657260427" type="System">
-                    <param id="0" name="Layout">Rua</param>
-                </action>
-                <action id="-16" name="Wait" sid="141450529683528" type="System">
-                    <param id="0" name="Seconds">6</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="713457165795470" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="925043195418261">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="478428122981937" type="Sprite">
-                    <param id="0" name="Object">RuaAcd</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="790164191490746" type="System">
-                    <param id="0" name="Layout">Academia</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="760658922482267" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="794698088350763" type="System">
-                    <param id="0" name="Seconds">6</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="238060149021895" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="553535203086372">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="395801745492411" type="Sprite">
-                    <param id="0" name="Object">FSFRua</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="818248662023503" type="System">
-                    <param id="0" name="Layout">Rua</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="283670966929367" type="System">
-                    <param id="0" name="Layer">3</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="160277856444223" type="System">
-                    <param id="0" name="Seconds">6</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="898632646784142" type="System">
-                    <param id="0" name="Layer">3</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="535596920551977">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="510349542362194" type="Sprite">
-                    <param id="0" name="Object">RuaFSF</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="225536748295270" type="System">
-                    <param id="0" name="Layout">Tutorial</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="515616851282296" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="981914087862010" type="System">
-                    <param id="0" name="Seconds">6</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="690563182971187" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="851452369258498">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="237869724116052" type="Sprite">
-                    <param id="0" name="Object">RuaPredio</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="250626795605184" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="711604484539303" type="System">
-                    <param id="0" name="Seconds">6</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="975210894601495" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
