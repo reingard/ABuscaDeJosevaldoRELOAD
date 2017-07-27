@@ -19,5 +19,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </condition-namecolumns>
     <events>
         <event collapsed="1" sid="882266832701887" />
+        <event collapsed="1" sid="426729153796310" />
     </events>
 </c2uistate>

@@ -7,17 +7,17 @@
             <sub-events>
                 <event-block sid="662042644372458">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="489199843980367" type="Sprite">
+                        <condition id="-7" name="Compare instance variable" sid="489199843980367" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">-1</param>
                         </condition>
-                        <condition id="2" name="Is playing" sid="117550871121166" type="Sprite">
+                        <condition id="2" name="Is playing" sid="117550871121166" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;Run&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="479818615912922" type="Sprite">
+                        <action id="4" name="Set animation" sid="479818615912922" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;StillLeft&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
@@ -25,17 +25,17 @@
                 </event-block>
                 <event-block sid="608177639119383">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="178504112929912" type="Sprite">
+                        <condition id="-7" name="Compare instance variable" sid="178504112929912" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">-1</param>
                         </condition>
-                        <condition id="2" name="Is playing" sid="804949529192650" type="Sprite">
+                        <condition id="2" name="Is playing" sid="804949529192650" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;Run1&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="170846945128611" type="Sprite">
+                        <action id="4" name="Set animation" sid="170846945128611" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;StillDown&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
@@ -43,17 +43,17 @@
                 </event-block>
                 <event-block sid="600020727355275">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="783547186994903" type="Sprite">
+                        <condition id="-7" name="Compare instance variable" sid="783547186994903" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">-1</param>
                         </condition>
-                        <condition id="2" name="Is playing" sid="667166201051119" type="Sprite">
+                        <condition id="2" name="Is playing" sid="667166201051119" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;Run2&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="807722617131748" type="Sprite">
+                        <action id="4" name="Set animation" sid="807722617131748" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;StillUp&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
@@ -66,7 +66,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="613156672296719" type="Sprite">
+                        <action id="-10" name="Set value" sid="613156672296719" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Value">0</param>
                         </action>
@@ -79,7 +79,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="940297230773051" type="Sprite">
+                        <action id="-10" name="Set value" sid="940297230773051" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Value">90</param>
                         </action>
@@ -92,7 +92,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="915951679891358" type="Sprite">
+                        <action id="-10" name="Set value" sid="915951679891358" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Value">180</param>
                         </action>
@@ -105,7 +105,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="134933606468577" type="Sprite">
+                        <action id="-10" name="Set value" sid="134933606468577" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Value">270</param>
                         </action>
@@ -135,7 +135,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="768943550818182" type="Sprite">
+                                <action id="-10" name="Set value" sid="768943550818182" type="NinjaPreto">
                                     <param id="0" name="Instance variable">dir</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
@@ -149,7 +149,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="616965560677505" type="Sprite">
+                                <action id="-10" name="Set value" sid="616965560677505" type="NinjaPreto">
                                     <param id="0" name="Instance variable">dir</param>
                                     <param id="1" name="Value">90</param>
                                 </action>
@@ -163,7 +163,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="469626880436349" type="Sprite">
+                                <action id="-10" name="Set value" sid="469626880436349" type="NinjaPreto">
                                     <param id="0" name="Instance variable">dir</param>
                                     <param id="1" name="Value">180</param>
                                 </action>
@@ -177,7 +177,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="341673857580059" type="Sprite">
+                                <action id="-10" name="Set value" sid="341673857580059" type="NinjaPreto">
                                     <param id="0" name="Instance variable">dir</param>
                                     <param id="1" name="Value">270</param>
                                 </action>
@@ -188,7 +188,7 @@
                                 <condition id="-22" name="Else" sid="636253441941298" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="652203572648953" type="Sprite">
+                                <action id="-10" name="Set value" sid="652203572648953" type="NinjaPreto">
                                     <param id="0" name="Instance variable">dir</param>
                                     <param id="1" name="Value">-1</param>
                                 </action>
@@ -198,117 +198,200 @@
                 </event-block>
                 <event-block sid="398420285986296">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="519237867714887" type="Sprite">
+                        <condition id="-7" name="Compare instance variable" sid="519237867714887" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="267014927269454" type="Sprite">
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="267014927269454" type="NinjaPreto">
                             <param id="0" name="Control">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="185528811242214" type="Sprite">
+                        <action id="4" name="Set animation" sid="185528811242214" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;Run&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="7" name="Set mirrored" sid="842072566894455" type="Sprite">
+                        <action id="7" name="Set mirrored" sid="842072566894455" type="NinjaPreto">
                             <param id="0" name="State">0</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="360641415272258">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="995498148287660" type="Sprite">
+                        <condition id="-7" name="Compare instance variable" sid="995498148287660" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">90</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="949081183426215" type="Sprite">
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="949081183426215" type="NinjaPreto">
                             <param id="0" name="Control">3</param>
                         </action>
-                        <action id="4" name="Set animation" sid="327054416356496" type="Sprite">
+                        <action id="4" name="Set animation" sid="327054416356496" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;Run1&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="7" name="Set mirrored" sid="366279133801825" type="Sprite">
+                        <action id="7" name="Set mirrored" sid="366279133801825" type="NinjaPreto">
                             <param id="0" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="930080850788464">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="429706749783140" type="Sprite">
+                        <condition id="-7" name="Compare instance variable" sid="429706749783140" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">180</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="309304143620922" type="Sprite">
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="309304143620922" type="NinjaPreto">
                             <param id="0" name="Control">0</param>
                         </action>
-                        <action id="4" name="Set animation" sid="580826665705942" type="Sprite">
+                        <action id="4" name="Set animation" sid="580826665705942" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;Run&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="7" name="Set mirrored" sid="585123684781857" type="Sprite">
+                        <action id="7" name="Set mirrored" sid="585123684781857" type="NinjaPreto">
                             <param id="0" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="473477842370768">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="794404630573726" type="Sprite">
+                        <condition id="-7" name="Compare instance variable" sid="794404630573726" type="NinjaPreto">
                             <param id="0" name="Instance variable">dir</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">270</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="786000096613978" type="Sprite">
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="786000096613978" type="NinjaPreto">
                             <param id="0" name="Control">2</param>
                         </action>
-                        <action id="4" name="Set animation" sid="457715308708789" type="Sprite">
+                        <action id="4" name="Set animation" sid="457715308708789" type="NinjaPreto">
                             <param id="0" name="Animation">&quot;Run2&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="7" name="Set mirrored" sid="448752003162666" type="Sprite">
+                        <action id="7" name="Set mirrored" sid="448752003162666" type="NinjaPreto">
                             <param id="0" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="914327006342107">
-            <conditions>
-                <condition id="0" name="On click" sid="915641875315632" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-3" name="Create object" sid="304913689521366" type="System">
-                    <param id="0" name="Object to create">Sprite3</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">Sprite.X</param>
-                    <param id="3" name="Y">Sprite.Y</param>
-                </action>
-                <action id="-22" name="Set angle toward position" sid="278930957107632" type="Sprite3">
-                    <param id="0" name="X">Mouse.X</param>
-                    <param id="1" name="Y">Mouse.Y</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="659536415698220">
-            <conditions>
-                <condition id="-4" name="Is outside layout" sid="781963488991984" type="Sprite3" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="946267467355777" type="Sprite3" />
-            </actions>
-        </event-block>
+        <event-group description="" sid="426729153796310" title="Kunai Ataque">
+            <sub-events>
+                <event-block sid="914327006342107">
+                    <conditions>
+                        <condition id="0" name="On click" sid="915641875315632" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="864499618799277" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="304913689521366" type="System">
+                            <param id="0" name="Object to create">Kunai</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">NinjaPreto.X</param>
+                            <param id="3" name="Y">NinjaPreto.Y + 15</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="278930957107632" type="Kunai">
+                            <param id="0" name="Angle">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="466583400227575">
+                    <conditions>
+                        <condition id="0" name="On click" sid="352097219157346" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="527388236849317" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="157651607836583" type="System">
+                            <param id="0" name="Object to create">Kunai</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">NinjaPreto.X</param>
+                            <param id="3" name="Y">NinjaPreto.Y </param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="374461333861791" type="Kunai">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="890040217889011">
+                    <conditions>
+                        <condition id="0" name="On click" sid="848637989475664" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="519643037029887" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">180</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="382534366677957" type="System">
+                            <param id="0" name="Object to create">Kunai</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">NinjaPreto.X</param>
+                            <param id="3" name="Y">NinjaPreto.Y + 15</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="764265788015753" type="Kunai">
+                            <param id="0" name="Angle">180</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="561008413305729">
+                    <conditions>
+                        <condition id="0" name="On click" sid="596194499011143" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="905124749680344" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">270</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="132043956920907" type="System">
+                            <param id="0" name="Object to create">Kunai</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">NinjaPreto.X</param>
+                            <param id="3" name="Y">NinjaPreto.Y</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="179191728389421" type="Kunai">
+                            <param id="0" name="Angle">-90</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="659536415698220">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="929605527946940" type="BonecoTutorial">
+                            <param id="0" name="Object">Kunai</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="946267467355777" type="Kunai" />
+                        <action id="-9" name="Destroy" sid="666077599697983" type="BonecoTutorial" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

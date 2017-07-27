@@ -80,7 +80,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="5">
+                <instance type="NinjaPreto" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -122,8 +122,8 @@
                         <width>18.533241272</width>
                         <height>23.722547531</height>
                         <depth>0</depth>
-                        <hotspotX>0.519999981</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.439999998</hotspotX>
+                        <hotspotY>0.78125</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -32,11 +32,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/NinjaPreto/" />
         <folder expanded="1" path="animation-folder/AcdRua/" />
         <folder expanded="1" path="animation-folder/Solido/" />
         <folder expanded="1" path="animation-folder/SolidoFase1/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/TreeSolid/" />
         <folder expanded="1" path="animation-folder/Loading/" />
         <folder expanded="1" path="animation-folder/Falas/" />
@@ -51,6 +50,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/RuaFSF/" />
         <folder expanded="1" path="animation-folder/FSFRua/" />
         <folder expanded="1" path="animation-folder/RuaPredio/" />
-        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Kunai/" />
+        <folder expanded="1" path="animation-folder/BonecoTutorial/" />
     </folders-expanded>
 </c2uistate>

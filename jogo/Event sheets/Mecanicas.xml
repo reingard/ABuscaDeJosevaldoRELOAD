@@ -10,7 +10,7 @@
             <sub-events>
                 <event-block sid="217987350666482">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="847041735536665" type="Sprite">
+                        <condition id="0" name="On collision with another object" sid="847041735536665" type="NinjaPreto">
                             <param id="0" name="Object">AcdRua</param>
                         </condition>
                     </conditions>
@@ -33,7 +33,7 @@
                 </event-block>
                 <event-block sid="925043195418261">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="478428122981937" type="Sprite">
+                        <condition id="0" name="On collision with another object" sid="478428122981937" type="NinjaPreto">
                             <param id="0" name="Object">RuaAcd</param>
                         </condition>
                     </conditions>
@@ -56,7 +56,7 @@
                 </event-block>
                 <event-block sid="553535203086372">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="395801745492411" type="Sprite">
+                        <condition id="0" name="On collision with another object" sid="395801745492411" type="NinjaPreto">
                             <param id="0" name="Object">FSFRua</param>
                         </condition>
                     </conditions>
@@ -79,7 +79,7 @@
                 </event-block>
                 <event-block sid="535596920551977">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="510349542362194" type="Sprite">
+                        <condition id="0" name="On collision with another object" sid="510349542362194" type="NinjaPreto">
                             <param id="0" name="Object">RuaFSF</param>
                         </condition>
                     </conditions>
@@ -102,7 +102,7 @@
                 </event-block>
                 <event-block sid="851452369258498">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="237869724116052" type="Sprite">
+                        <condition id="0" name="On collision with another object" sid="237869724116052" type="NinjaPreto">
                             <param id="0" name="Object">RuaPredio</param>
                         </condition>
                     </conditions>
@@ -168,7 +168,7 @@
                             <sub-events>
                                 <event-block sid="643054308288327">
                                     <conditions>
-                                        <condition id="9" name="Is overlapping at offset" sid="125392293643144" type="Sprite">
+                                        <condition id="9" name="Is overlapping at offset" sid="125392293643144" type="NinjaPreto">
                                             <param id="0" name="Object">FalasTutorial</param>
                                             <param id="1" name="Offset X">0</param>
                                             <param id="2" name="Offset Y">0</param>
@@ -313,7 +313,7 @@
                             <sub-events>
                                 <event-block sid="748106087926184">
                                     <conditions>
-                                        <condition id="9" name="Is overlapping at offset" sid="573575221869804" type="Sprite">
+                                        <condition id="9" name="Is overlapping at offset" sid="573575221869804" type="NinjaPreto">
                                             <param id="0" name="Object">FalasDojoOut</param>
                                             <param id="1" name="Offset X">0</param>
                                             <param id="2" name="Offset Y">0</param>
@@ -458,7 +458,7 @@
                             <sub-events>
                                 <event-block sid="356834212550877">
                                     <conditions>
-                                        <condition id="9" name="Is overlapping at offset" sid="525598276822561" type="Sprite">
+                                        <condition id="9" name="Is overlapping at offset" sid="525598276822561" type="NinjaPreto">
                                             <param id="0" name="Object">Falas</param>
                                             <param id="1" name="Offset X">0</param>
                                             <param id="2" name="Offset Y">0</param>
