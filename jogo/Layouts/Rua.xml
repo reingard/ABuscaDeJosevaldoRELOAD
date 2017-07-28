@@ -122,8 +122,8 @@
                         <width>18.533241272</width>
                         <height>23.722547531</height>
                         <depth>0</depth>
-                        <hotspotX>0.439999998</hotspotX>
-                        <hotspotY>0.78125</hotspotY>
+                        <hotspotX>0.519999981</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -147,7 +147,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="ObjetosFullFASE1PARTE1" uid="2">
+                <instance type="ObjetosFullRUAPARTE1" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <tile-width>8</tile-width>
@@ -198,7 +198,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="ObjetosFullFASE1PARTE2" uid="33">
+                <instance type="ObjetosFullRuaPARTE2" uid="33">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <tile-width>8</tile-width>
