@@ -428,6 +428,11 @@
             <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
             <tiles />
         </object-type>
+        <object-type name="TilesetFase2" sid="134884225623501">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal - Cópia.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -435,6 +440,7 @@
         <layout>Academia.xml</layout>
         <layout>Tutorial.xml</layout>
         <layout>Fase 1.xml</layout>
+        <layout>Fase 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
