@@ -14,7 +14,6 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
@@ -144,7 +143,7 @@
             <texture original-source="C:\Users\20171144010053\Documents\Github\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal.png" />
             <tiles />
         </object-type>
-        <object-type name="ObjetosFullFASE1PARTE1" sid="279647477377584">
+        <object-type name="ObjetosFullRUAPARTE1" sid="279647477377584">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
             <tiles />
@@ -188,7 +187,7 @@
             <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
             <tiles />
         </object-type>
-        <object-type name="ObjetosFullFASE1PARTE2" sid="162541872555118">
+        <object-type name="ObjetosFullRuaPARTE2" sid="162541872555118">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
             <tiles />
@@ -221,10 +220,6 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="SpriteFont" sid="302571725449328">
-            <plugin id="Spritefont2" />
-            <texture />
         </object-type>
         <object-type name="PlacaFase1Floresta" sid="913021431051538">
             <plugin id="Sprite" />
@@ -427,6 +422,11 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="ObjetosFullFASE1" sid="469010344600015">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\ObjetosOriginal.png" />
+            <tiles />
         </object-type>
     </object-folder>
     <families />
