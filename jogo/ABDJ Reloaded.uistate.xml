@@ -12,8 +12,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="1">Fase 1</layout>
         <layout order="2">Fase 2</layout>
-        <event-sheet active="1" order="0">Mecanicas</event-sheet>
-        <event-sheet order="3">Inimigo</event-sheet>
+        <event-sheet order="0">Mecanicas</event-sheet>
+        <event-sheet active="1" order="3">Inimigo</event-sheet>
         <event-sheet order="4">Personagem</event-sheet>
     </open-tabs>
     <properties>

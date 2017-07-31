@@ -36,5 +36,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="357377908097050">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="316831605387470" type="Kunai2">
+                    <param id="0" name="Object">SolidoFase1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="890313750771438" type="Kunai2" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
