@@ -43,7 +43,47 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="890313750771438" type="Kunai2" />
+                <action id="-9" name="Destroy" sid="482105529053513" type="Kunai2" />
+            </actions>
+        </event-block>
+        <event-block sid="600939052438461">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="535439921612055" type="Kunai">
+                    <param id="0" name="Object">Solido</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="858087826860452" type="Kunai" />
+            </actions>
+        </event-block>
+        <event-block sid="509138485275453">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="979871570720832" type="Kunai">
+                    <param id="0" name="Object">SolidoFase1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="452220231566013" type="Kunai" />
+            </actions>
+        </event-block>
+        <event-block sid="754822456025804">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="750349480917356" type="Kunai">
+                    <param id="0" name="Object">SolidoTutorial</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="734161485903426" type="Kunai" />
+            </actions>
+        </event-block>
+        <event-block sid="692413200285487">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="257333298447027" type="Kunai2">
+                    <param id="0" name="Object">NinjaPreto</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="131464365606270" type="System" />
             </actions>
         </event-block>
     </events>

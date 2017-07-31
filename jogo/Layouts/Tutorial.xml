@@ -63,7 +63,7 @@
                 </instance>
                 <instance type="SolidoTutorial" uid="77">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -168,8 +168,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>455.925354004</x>
-                        <y>138.505462646</y>
+                        <x>25</x>
+                        <y>78</y>
                         <z>0</z>
                         <width>18.533241272</width>
                         <height>23.722547531</height>
@@ -182,7 +182,7 @@
                 </instance>
                 <instance type="SolidoTutorial" uid="81">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -211,7 +211,7 @@
                 </instance>
                 <instance type="SolidoTutorial" uid="82">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -528,60 +528,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TextoPlacaFase1TutoE" uid="94">
-                    <properties>
-                        <text>Placa diz: Siga reto para encontrar o Dojo e o predio Beat Up.</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>FISH&amp;CHIPS,-16,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>81.369415283</x>
-                        <y>-326.741821289</y>
-                        <z>0</z>
-                        <width>304.992767334</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TextoPlacaFase1TutoNE" uid="95">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>FISH&amp;CHIPS,-16,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5.687633514</x>
-                        <y>97.448692322</y>
-                        <z>0</z>
-                        <width>224.810272217</width>
-                        <height>47.164810181</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="BonecoTutorial" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -636,6 +582,31 @@
                         <depth>0</depth>
                         <hotspotX>-7.625</hotspotX>
                         <hotspotY>0.46875</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PlacaTutorial" uid="93">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>117.900306702</x>
+                        <y>120.953353882</y>
+                        <z>0</z>
+                        <width>228.781082153</width>
+                        <height>55.881362915</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -713,27 +684,56 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlacaTutorial" uid="93">
+                <instance type="TextoPlacaFase1TutoE" uid="133">
                     <properties>
+                        <text>Placa diz: Siga reto para encontrar o Dojo e o predio Beat Up.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
+                        <font>FISH&amp;CHIPS,-16,400,0</font>
+                        <color>255,255,153</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>117.900306702</x>
-                        <y>120.953353882</y>
+                        <x>-18</x>
+                        <y>-277</y>
                         <z>0</z>
-                        <width>228.781082153</width>
-                        <height>55.881362915</height>
+                        <width>304.992767334</width>
+                        <height>30</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TextoPlacaFase1TutoNE" uid="95">
+                    <properties>
+                        <text></text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>FISH&amp;CHIPS,-16,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5.687633514</x>
+                        <y>97.448692322</y>
+                        <z>0</z>
+                        <width>224.810272217</width>
+                        <height>47.164810181</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

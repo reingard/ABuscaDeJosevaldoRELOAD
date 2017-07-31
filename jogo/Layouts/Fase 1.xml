@@ -196,9 +196,9 @@
                         <behavior-instance type="Turret">
                             <properties>
                                 <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
-                                <rotate-speed>180</rotate-speed>
+                                <rate-of-fire>2</rate-of-fire>
+                                <rotate>No</rotate>
+                                <rotate-speed>0</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
                                 <projectile-speed>500</projectile-speed>
@@ -238,9 +238,9 @@
                         <behavior-instance type="Turret">
                             <properties>
                                 <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
-                                <rotate-speed>180</rotate-speed>
+                                <rate-of-fire>2</rate-of-fire>
+                                <rotate>No</rotate>
+                                <rotate-speed>0</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
                                 <projectile-speed>500</projectile-speed>
@@ -280,9 +280,9 @@
                         <behavior-instance type="Turret">
                             <properties>
                                 <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
-                                <rotate-speed>180</rotate-speed>
+                                <rate-of-fire>2</rate-of-fire>
+                                <rotate>No</rotate>
+                                <rotate-speed>0</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
                                 <projectile-speed>500</projectile-speed>
@@ -322,12 +322,12 @@
                         <behavior-instance type="Turret">
                             <properties>
                                 <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
-                                <rotate-speed>180</rotate-speed>
+                                <rate-of-fire>2</rate-of-fire>
+                                <rotate>No</rotate>
+                                <rotate-speed>0</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
-                                <projectile-speed>500</projectile-speed>
+                                <projectile-speed>3000</projectile-speed>
                                 <initial-state>Enabled</initial-state>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -364,9 +364,9 @@
                         <behavior-instance type="Turret">
                             <properties>
                                 <range>300</range>
-                                <rate-of-fire>1</rate-of-fire>
-                                <rotate>Yes</rotate>
-                                <rotate-speed>180</rotate-speed>
+                                <rate-of-fire>2</rate-of-fire>
+                                <rotate>No</rotate>
+                                <rotate-speed>0</rotate-speed>
                                 <target-mode>First in range</target-mode>
                                 <predictive-aim>No</predictive-aim>
                                 <projectile-speed>500</projectile-speed>
@@ -1202,7 +1202,7 @@
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.571429014</hotspotY>
+                        <hotspotY>0.571428597</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

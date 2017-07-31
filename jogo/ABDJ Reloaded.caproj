@@ -36,7 +36,8 @@
     </window-size>
     <pixel-rounding>1</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <use-loader-layout>0</use-loader-layout>
+    <first-layout>Tutorial</first-layout>
+    <use-loader-layout>1</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">No</prop>
         <prop name="Downscaling">High quality</prop>
