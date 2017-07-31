@@ -21,6 +21,7 @@
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -65,6 +66,7 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="dir" sid="134076676566789" type="number" />
+                <instance-variable name="dir_kunai" sid="383575531368755" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="730770401408833">
@@ -433,6 +435,54 @@
             <texture original-source="C:\Users\User\Desktop\GitHub\ABuscaDeJosevaldoRELOADED\ABuscaDeJosevaldoRELOADED\Docs\Tilesets\TilesetOriginal - Cópia.png" />
             <tiles />
         </object-type>
+        <object-type name="NinjaBranco" sid="731637339662250">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="286018950359451">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Turret" sid="516829027465287">
+                    <behavior id="Turret" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Still" pingpong="0" repeatcount="1" repeatto="0" sid="476793840649441" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\20171144010050\Documents\GIT\ABuscaDeJosevaldoRELOADED\Docs\NinjaBranco\WhiteNinjaSD.png">
+                        <collision-poly>
+                            <point x="0.1875" y="0.1875" />
+                            <point x="0.5" y="0" />
+                            <point x="0.84375" y="0.15625" />
+                            <point x="0.84375" y="0.84375" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.15625" y="0.84375" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kunai2" sid="830408348848253">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="998163183910569">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="404964786860579" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.571429" original-source="C:\Users\20171144010005\Desktop\ABuscaDeJosevaldoRELOADED\Docs\Tools\kunai.png">
+                        <collision-poly>
+                            <point x="0.833333" y="0.285714" />
+                            <point x="0.916667" y="0.428571" />
+                            <point x="0.833333" y="0.714286" />
+                            <point x="0.166667" y="0.714286" />
+                            <point x="0.083333" y="0.428571" />
+                            <point x="0.166667" y="0.285714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -445,6 +495,7 @@
     <event-folder>
         <event-sheet>Mecanicas.xml</event-sheet>
         <event-sheet>Personagem.xml</event-sheet>
+        <event-sheet>Inimigo.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="3" />

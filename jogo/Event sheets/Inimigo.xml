@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Inimigo</name>
+    <events>
+        <event-block sid="792161447039279">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="574695675066523" type="NinjaBranco">
+                    <param id="0" name="Object">Kunai</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="368091684918151" type="NinjaBranco" />
+                <action id="-9" name="Destroy" sid="361794109124871" type="Kunai" />
+            </actions>
+        </event-block>
+        <event-block sid="425130174718561">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="869174329191339" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Turret" id="1" name="Add object to target" sid="785348189587587" type="NinjaBranco">
+                    <param id="0" name="Target">NinjaPreto</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="966958545303696">
+            <conditions>
+                <condition behavior="Turret" id="1" name="On shoot" sid="213802496968078" type="NinjaBranco" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="273813853436433" type="NinjaBranco">
+                    <param id="0" name="Object">Kunai2</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

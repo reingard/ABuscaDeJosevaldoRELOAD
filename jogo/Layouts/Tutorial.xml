@@ -140,6 +140,7 @@
                     </properties>
                     <instance-variables>
                         <dir>-1</dir>
+                        <dir_kunai>0</dir_kunai>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="8Direction">
