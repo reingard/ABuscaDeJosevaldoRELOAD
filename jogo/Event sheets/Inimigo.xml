@@ -19,7 +19,7 @@
                 <condition id="-2" name="On start of layout" sid="869174329191339" type="System" />
             </conditions>
             <actions>
-                <action behavior="Turret" id="1" name="Add object to target" sid="785348189587587" type="NinjaBranco">
+                <action behavior="Turret" disabled="1" id="1" name="Add object to target" sid="785348189587587" type="NinjaBranco">
                     <param id="0" name="Target">NinjaPreto</param>
                 </action>
             </actions>
@@ -98,5 +98,154 @@
                 <action id="-26" name="Restart layout" sid="131464365606270" type="System" />
             </actions>
         </event-block>
+        <event-block sid="687144406477273">
+            <conditions>
+                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="660565527322220" type="NinjaBranco">
+                    <param id="0" name="Object">NinjaPreto</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Turret" id="1" name="Add object to target" sid="686634205504571" type="NinjaBranco">
+                    <param id="0" name="Target">NinjaPreto</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="626076499488284">
+            <conditions>
+                <condition id="-22" name="Else" sid="418566472147470" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Turret" id="2" name="Clear targets" sid="934381257471790" type="NinjaBranco" />
+            </actions>
+        </event-block>
+        <event-group description="" sid="598032077655884" title="Fase2">
+            <sub-events>
+                <event-block sid="317966321268432">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="797053744682723" type="NinjaBrancoFase2">
+                            <param id="0" name="Object">Kunai</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="445000727026048" type="NinjaBrancoFase2" />
+                        <action id="-9" name="Destroy" sid="620635467138509" type="Kunai" />
+                    </actions>
+                </event-block>
+                <event-block sid="839164685228496">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="945066077356325" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Turret" disabled="1" id="1" name="Add object to target" sid="886179037447841" type="NinjaBranco">
+                            <param id="0" name="Target">NinjaPreto</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="720888291874682">
+                    <conditions>
+                        <condition behavior="Turret" id="1" name="On shoot" sid="617323742387349" type="NinjaBrancoFase2" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="622080569603017" type="NinjaBrancoFase2">
+                            <param id="0" name="Object">Kunai2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="665422857505543">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="245894326749376" type="Kunai2">
+                            <param id="0" name="Object">SolidoFase1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="849042875548775" type="Kunai2" />
+                    </actions>
+                </event-block>
+                <event-block sid="368466684344869">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="843538252582265" type="Kunai">
+                            <param id="0" name="Object">Solido</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="998943520353959" type="Kunai" />
+                    </actions>
+                </event-block>
+                <event-block sid="437126560293371">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="829160357264493" type="Kunai">
+                            <param id="0" name="Object">SolidoFase1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="138292309170380" type="Kunai" />
+                    </actions>
+                </event-block>
+                <event-block sid="189589697387461">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="684085840617045" type="Kunai2">
+                            <param id="0" name="Object">SolidoFase2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="498357952855956" type="Kunai2" />
+                    </actions>
+                </event-block>
+                <event-block sid="754088744166583">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="649896860114867" type="Kunai">
+                            <param id="0" name="Object">SolidoTutorial</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="388228293054888" type="Kunai" />
+                    </actions>
+                </event-block>
+                <event-block sid="292170848148177">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="856208942805215" type="Kunai2">
+                            <param id="0" name="Object">NinjaPreto</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="877794394871961" type="NinjaPreto">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">1.0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="344458389497314" type="System">
+                            <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="339136788491705" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="179027890679310" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="876024464903257">
+                    <conditions>
+                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="153015516288658" type="NinjaBrancoFase2">
+                            <param id="0" name="Object">NinjaPreto</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Turret" id="1" name="Add object to target" sid="695060137817822" type="NinjaBrancoFase2">
+                            <param id="0" name="Target">NinjaPreto</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="947259141094627">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="148517589824482" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Turret" id="2" name="Clear targets" sid="942596003987948" type="NinjaBrancoFase2" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

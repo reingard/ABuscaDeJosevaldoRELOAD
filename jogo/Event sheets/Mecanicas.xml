@@ -206,7 +206,7 @@
                                                 <condition id="-8" name="Compare two values" sid="387137489490802" type="System">
                                                     <param id="0" name="First value">NinjaverdeEFala8.Text</param>
                                                     <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Second value">NinjaverdeEFala7.Text</param>
+                                                    <param id="2" name="Second value">NinjaverdeNE.Text</param>
                                                 </condition>
                                                 <condition id="-14" name="Compare variable" sid="996030372601820" type="System">
                                                     <param id="0" name="Variable">DialogueFinished2</param>
