@@ -284,6 +284,110 @@
         </event-group>
         <event-group description="" sid="426729153796310" title="Kunai Ataque">
             <sub-events>
+                <event-block sid="441324644241302">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="388887097104640" type="Keyboard">
+                            <param id="0" name="Key">68 (D)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="337633832759026" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir_kunai</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="989898841067866">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="580223330998162" type="Keyboard">
+                            <param id="0" name="Key">83 (S)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="958032935742539" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir_kunai</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="329567693217532">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="424169995385302" type="Keyboard">
+                            <param id="0" name="Key">65 (A)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="797435091776622" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir_kunai</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="158941126397463">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="526786617856637" type="Keyboard">
+                            <param id="0" name="Key">87 (W)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="399566995389100" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir_kunai</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="682105632008219">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="512872778945810" type="Keyboard">
+                            <param id="0" name="Key">68 (D)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="844908081973618" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir_kunai</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="339227396552756">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="775676615672093" type="Keyboard">
+                            <param id="0" name="Key">83 (S)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="497910823878523" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir_kunai</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="358562351282455">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="353866617684668" type="Keyboard">
+                            <param id="0" name="Key">65 (A)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="243249631968204" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir_kunai</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="204918883789763">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="118976985452827" type="Keyboard">
+                            <param id="0" name="Key">87 (W)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="830454737065046" type="NinjaPreto">
+                            <param id="0" name="Instance variable">dir_kunai</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="914327006342107">
                     <conditions>
                         <condition id="0" name="On click" sid="915641875315632" type="Mouse">
@@ -393,109 +497,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="441324644241302">
-            <conditions>
-                <condition id="3" name="On key released" sid="388887097104640" type="Keyboard">
-                    <param id="0" name="Key">68 (D)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="337633832759026" type="NinjaPreto">
-                    <param id="0" name="Instance variable">dir_kunai</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="989898841067866">
-            <conditions>
-                <condition id="3" name="On key released" sid="580223330998162" type="Keyboard">
-                    <param id="0" name="Key">83 (S)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="958032935742539" type="NinjaPreto">
-                    <param id="0" name="Instance variable">dir_kunai</param>
-                    <param id="1" name="Value">2</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="329567693217532">
-            <conditions>
-                <condition id="3" name="On key released" sid="424169995385302" type="Keyboard">
-                    <param id="0" name="Key">65 (A)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="797435091776622" type="NinjaPreto">
-                    <param id="0" name="Instance variable">dir_kunai</param>
-                    <param id="1" name="Value">3</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="158941126397463">
-            <conditions>
-                <condition id="3" name="On key released" sid="526786617856637" type="Keyboard">
-                    <param id="0" name="Key">87 (W)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="399566995389100" type="NinjaPreto">
-                    <param id="0" name="Instance variable">dir_kunai</param>
-                    <param id="1" name="Value">4</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="682105632008219">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="512872778945810" type="Keyboard">
-                    <param id="0" name="Key">68 (D)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="844908081973618" type="NinjaPreto">
-                    <param id="0" name="Instance variable">dir_kunai</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="339227396552756">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="775676615672093" type="Keyboard">
-                    <param id="0" name="Key">83 (S)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="497910823878523" type="NinjaPreto">
-                    <param id="0" name="Instance variable">dir_kunai</param>
-                    <param id="1" name="Value">2</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="358562351282455">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="353866617684668" type="Keyboard">
-                    <param id="0" name="Key">65 (A)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="243249631968204" type="NinjaPreto">
-                    <param id="0" name="Instance variable">dir_kunai</param>
-                    <param id="1" name="Value">3</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="204918883789763">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="118976985452827" type="Keyboard">
-                    <param id="0" name="Key">87 (W)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="830454737065046" type="NinjaPreto">
-                    <param id="0" name="Instance variable">dir_kunai</param>
-                    <param id="1" name="Value">4</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

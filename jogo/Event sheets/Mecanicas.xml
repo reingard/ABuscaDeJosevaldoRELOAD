@@ -125,6 +125,838 @@
         </event-group>
         <event-group description="" sid="287320299597271" title="PLACAAAAS">
             <sub-events>
+                <event-group description="" sid="430412329885487" title="Fala do ninja verde">
+                    <sub-events>
+                        <event-group description="" sid="387154953791832" title="Fala8">
+                            <sub-events>
+                                <event-block sid="347668242431623">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="728377228751221" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">16</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="633797891802032" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="543232460049387" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="110576040364521" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">17</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="539513424563420">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="258690355948455" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">17</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="172537859235742" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="459667044200490" type="NinjaverdeNE">
+                                            <param id="0" name="Text">left(NinjaverdeEFala8.text, len(NinjaverdeNE.text)+ 1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="333252999818091">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="417938887220060" type="Keyboard">
+                                            <param id="0" name="Key">32 (Space)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="241200210875118" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">17</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="522217516351981">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="384062881906937" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala8.Text</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala7.Text</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="694477423635283" type="NinjaverdeNE">
+                                                    <param id="0" name="Text">NinjaverdeEFala8.Text</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="924529150691181" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="433517087094540" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">17</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="220396808339105">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="387137489490802" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala8.Text</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala7.Text</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="996030372601820" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">17</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="177498109039857" type="TextoPlacaFase1FlorestaNE">
+                                                    <param id="0" name="Text">&quot;&quot;</param>
+                                                </action>
+                                                <action id="-12" name="Set group active" sid="598620507842737" type="System">
+                                                    <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                                                    <param id="1" name="State">1</param>
+                                                </action>
+                                                <action id="-12" name="Set group active" sid="318709505215373" type="System">
+                                                    <param id="0" name="Group name">&quot;Kunai Ataque&quot;</param>
+                                                    <param id="1" name="State">1</param>
+                                                </action>
+                                                <action id="-2" name="Go to layout" sid="636393707947836" type="System">
+                                                    <param id="0" name="Layout">Fase 2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="333730483485011" title="Fala7">
+                            <sub-events>
+                                <event-block sid="419115769235683">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="713570632079645" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">15</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="657586700210826" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="914113426696336" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="624111892873800" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">16</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="219615455906900">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="928272905522387" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">16</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="225374739851069" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="433989220304251" type="NinjaverdeNE">
+                                            <param id="0" name="Text">left(NinjaverdeEFala7.text, len(NinjaverdeNE.text)+ 1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="172635016814638">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="231231043719221" type="Keyboard">
+                                            <param id="0" name="Key">32 (Space)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="492741316296409" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">16</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="478285028027472">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="912719467101595" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala7.Text</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala6.Text</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="149393382326909" type="NinjaverdeNE">
+                                                    <param id="0" name="Text">NinjaverdeEFala7.Text</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="793466965360174" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="523678537749556" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">16</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="441093726660584">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="240922807433713" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala7.Text</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala6.Text</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="173257549940190" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">16</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="404429862531388" type="TextoPlacaFase1FlorestaNE">
+                                                    <param id="0" name="Text">&quot;&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="976767565491369" title="Fala6">
+                            <sub-events>
+                                <event-block sid="118822484992231">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="274593094975064" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">14</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="524836696466643" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="336345020264191" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="247600379025785" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">15</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="417665243323797">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="620474753906348" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">15</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="852644360687119" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="890905236605708" type="NinjaverdeNE">
+                                            <param id="0" name="Text">left(NinjaverdeEFala6.text, len(NinjaverdeNE.text)+ 1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="335541536762514">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="191401641940467" type="Keyboard">
+                                            <param id="0" name="Key">32 (Space)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="435060769453377" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">15</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="142399619514136">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="571031272411947" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala6.Text</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala5.Text</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="588469151587282" type="NinjaverdeNE">
+                                                    <param id="0" name="Text">NinjaverdeEFala6.Text</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="232193856457618" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="547729669258822" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">15</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="687869862567314">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="876915293568971" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala6.Text</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala5.Text</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="848143861697926" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">15</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="958163287444729" type="TextoPlacaFase1FlorestaNE">
+                                                    <param id="0" name="Text">&quot;&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="963256092156614" title="Fala5">
+                            <sub-events>
+                                <event-block sid="434328283469411">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="266477613965851" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">13</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="350998621194114" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="639331971318433" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="696423567066936" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">14</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="854355084114120">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="925148293458209" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">14</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="492473051864681" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="669419791765841" type="NinjaverdeNE">
+                                            <param id="0" name="Text">left(NinjaverdeEFala5.text, len(NinjaverdeNE.text)+ 1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="745737433614330">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="484670865809996" type="Keyboard">
+                                            <param id="0" name="Key">32 (Space)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="758879927823927" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">14</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="425384157663330">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="878819957980210" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala5.Text</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala4.Text</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="779971839946302" type="NinjaverdeNE">
+                                                    <param id="0" name="Text">NinjaverdeEFala5.Text</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="120746855322605" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="114062105676452" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">14</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="874968597138140">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="585211689653926" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala5.Text</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala4.Text</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="320904306821362" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">14</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="370439177834069" type="TextoPlacaFase1FlorestaNE">
+                                                    <param id="0" name="Text">&quot;&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="450465018280400" title="Fala4">
+                            <sub-events>
+                                <event-block sid="816870384828560">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="555692555641384" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">12</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="403932500589512" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="525963366170645" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="818112817166138" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">13</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="885150703876199">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="502637629671861" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">13</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="526258411528993" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="296098451488787" type="NinjaverdeNE">
+                                            <param id="0" name="Text">left(NinjaverdeEFala4.text, len(NinjaverdeNE.text)+ 1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="745475767319328">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="660004419154764" type="Keyboard">
+                                            <param id="0" name="Key">32 (Space)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="411353156315123" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">13</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="121920795578470">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="386391424754318" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala4.Text</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">NinjaverdeNE.Text</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="999743236798847" type="NinjaverdeNE">
+                                                    <param id="0" name="Text">NinjaverdeEFala4.Text</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="952402238038074" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="245727733076936" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">13</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="460029514846692">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="579996465016234" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala4.Text</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala3.Text</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="185380399549614" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">13</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="571201141642056" type="TextoPlacaFase1FlorestaNE">
+                                                    <param id="0" name="Text">&quot;&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="473090741995115" title="Fala3">
+                            <sub-events>
+                                <event-block sid="637345348821890">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="341949502744905" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">11</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="385955749195499" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="992062942209258" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="817406375615997" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">12</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="227835024769814">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="534380070051114" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">12</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="916427412551875" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="236397656896655" type="NinjaverdeNE">
+                                            <param id="0" name="Text">left(NinjaverdeEFala3.text, len(NinjaverdeNE.text)+ 1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="884825572269811">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="663311326758643" type="Keyboard">
+                                            <param id="0" name="Key">32 (Space)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="256638303833945" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">12</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="665165655887893">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="637667259091766" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala3.Text</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala2.Text</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="906716240735271" type="NinjaverdeNE">
+                                                    <param id="0" name="Text">NinjaverdeEFala3.Text</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="523293346740904" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="550947779090724" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">12</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="466198061525214">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="233686089795631" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala3.Text</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala2.Text</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="909751779945098" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">12</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="261726893200278" type="TextoPlacaFase1FlorestaNE">
+                                                    <param id="0" name="Text">&quot;&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="304128439887813" title="Fala 2">
+                            <sub-events>
+                                <event-block sid="842784162754378">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="346900263052834" type="System">
+                                            <param id="0" name="Variable">DialogueFinished2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">10</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="313274790918574" type="TextoPlacaFase1FlorestaNE">
+                                            <param id="0" name="Text">&quot;&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="929409492726627" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="480738010929642" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Value">11</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="975304625374750">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="773289652037598" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">11</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="466109855041603" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="349575389093539" type="NinjaverdeNE">
+                                            <param id="0" name="Text">left(NinjaverdeEFala2.text, len(NinjaverdeNE.text)+ 1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="877591608321378">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="301127927882364" type="Keyboard">
+                                            <param id="0" name="Key">32 (Space)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="176248867709573" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">11</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="521178923961119">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="459949582269733" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala2.Text</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala1.Text</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="481009454745063" type="NinjaverdeNE">
+                                                    <param id="0" name="Text">NinjaverdeEFala2.Text</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="900702529817822" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="606151779509723" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">11</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="558853402342094">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="491983743557706" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala2.Text</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">NinjaverdeEFala1.Text</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="665948909423097" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">11</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="380164982495319" type="TextoPlacaFase1FlorestaNE">
+                                                    <param id="0" name="Text">&quot;&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="937138254217029" title="Fala1">
+                            <sub-events>
+                                <event-block sid="187947666240926">
+                                    <conditions>
+                                        <condition id="-2" name="On start of layout" sid="487532246356077" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="671801342331790" type="PlacaFase1NinjaVerde">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="380835452764706">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="498933352074622" type="Keyboard">
+                                            <param id="0" name="Key">69 (E)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="818451090550043" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="990730369307009">
+                                            <conditions>
+                                                <condition id="9" name="Is overlapping at offset" sid="142867253360000" type="NinjaPreto">
+                                                    <param id="0" name="Object">FalasNinjaVerde</param>
+                                                    <param id="1" name="Offset X">0</param>
+                                                    <param id="2" name="Offset Y">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-15" name="Set visible" sid="165990675905127" type="PlacaFase1NinjaVerde">
+                                                    <param id="0" name="Visibility">1</param>
+                                                </action>
+                                                <action id="-12" name="Set group active" sid="833799036205875" type="System">
+                                                    <param id="0" name="Group name">&quot;Movimento&quot;</param>
+                                                    <param id="1" name="State">0</param>
+                                                </action>
+                                                <action id="-12" name="Set group active" sid="812677037590312" type="System">
+                                                    <param id="0" name="Group name">&quot;Kunai Ataque&quot;</param>
+                                                    <param id="1" name="State">0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="934076631894036" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="429203003927758" type="System">
+                                                    <param id="0" name="Variable">Dialogue2</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="637413755145688" type="System">
+                                                    <param id="0" name="Seconds">0.2</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="332768978678572" type="System">
+                                                    <param id="0" name="Variable">Dialogue2</param>
+                                                    <param id="1" name="Value">10</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="775821723491046">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="603042338267818" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">10</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="855860833448653" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="331087611268893" type="NinjaverdeNE">
+                                            <param id="0" name="Text">left(NinjaverdeEFala1.text, len(NinjaverdeNE.text)+ 1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="577047420531507">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="224201790738356" type="Keyboard">
+                                            <param id="0" name="Key">32 (Space)</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="981183503156723" type="System">
+                                            <param id="0" name="Variable">Dialogue2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">10</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="528481936295242">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="759034579767360" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala1.Text</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Second value">NinjaverdeNE.Text</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="191757519281594" type="NinjaverdeNE">
+                                                    <param id="0" name="Text">NinjaverdeEFala1.Text</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="602004113208774" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="345425151605061" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Value">10</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="266292862538349">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="812721322539406" type="System">
+                                                    <param id="0" name="First value">NinjaverdeEFala1.Text</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">NinjaverdeNE.Text</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="456275194473383" type="System">
+                                                    <param id="0" name="Variable">DialogueFinished2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">10</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="256873552078270" type="TextoPlacaFase1FlorestaNE">
+                                                    <param id="0" name="Text">&quot;&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                    </sub-events>
+                </event-group>
                 <event-group description="" sid="110965020412507" title="Placa do Tutorial">
                     <sub-events>
                         <event-block sid="339101485888982">

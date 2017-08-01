@@ -225,6 +225,7 @@
                                 <bound-by>Edge</bound-by>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Flash" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -232,10 +233,10 @@
                         <x>423.225036621</x>
                         <y>299.60345459</y>
                         <z>0</z>
-                        <width>18.533241272</width>
+                        <width>20.015899658</width>
                         <height>23.722547531</height>
                         <depth>0</depth>
-                        <hotspotX>0.519999981</hotspotX>
+                        <hotspotX>0.518518507</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

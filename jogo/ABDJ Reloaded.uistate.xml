@@ -10,11 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">Fase 2</layout>
-        <layout order="4">Tutorial</layout>
-        <event-sheet order="0">Mecanicas</event-sheet>
-        <event-sheet order="2">Personagem</event-sheet>
-        <event-sheet order="3">Inimigo</event-sheet>
+        <layout order="0">Fase 2</layout>
+        <layout order="2">Fase 1</layout>
+        <event-sheet active="1" order="1">Mecanicas</event-sheet>
+        <event-sheet order="3">Personagem</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -53,5 +52,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BonecoTutorial/" />
         <folder expanded="1" path="animation-folder/NinjaBranco/" />
         <folder expanded="1" path="animation-folder/Kunai2/" />
+        <folder expanded="1" path="animation-folder/SolidoFase2/" />
+        <folder expanded="1" path="animation-folder/Barão/" />
+        <folder expanded="1" path="animation-folder/NinjaBrancoFase2/" />
+        <folder expanded="1" path="animation-folder/NinjaVerde/" />
+        <folder expanded="1" path="animation-folder/FalasNinjaVerde/" />
+        <folder expanded="1" path="animation-folder/PlacaFase1NinjaVerde/" />
     </folders-expanded>
 </c2uistate>
